@@ -11,6 +11,13 @@ export class ListaProductosComponent {
 
 
   constructor() {
-    this.arrProductos = []
+    this.arrProductos = [
+      {
+        titulo: '',
+        imagen: '',
+        descripcion: '',
+        precio: ''
+      }
+    ]
   }
 }
